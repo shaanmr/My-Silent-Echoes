@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Silent Echoes</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <nav style="display:flex;align-items:center;justify-content:space-between;gap:1.2rem;">
+        <span style="font-family:'Montserrat',Arial,sans-serif;font-weight:900;font-size:1.5rem;letter-spacing:1.5px;text-shadow:0 2px 8px rgba(44,62,80,0.08);">
+            <span style="color:#3498db;">Silent</span><span style="color:#222;margin-left:2px;">Echoes</span>
+        </span>
+        <ul style="display:flex;align-items:center;gap:0.5rem;margin:0;">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Contact</h1>
+        <p>I'd love to hear from you! Whether you have feedback, collaboration ideas, or just want to say hello, feel free to reach out. Here are some ways to connect:</p>
+        <ul>
+            <li>Email: <a href="mailto:shaanmr07@gmail.com">shaanmr07@gmail.com</a></li>
+            <li>Facebook: <a href="https://www.facebook.com/shaanmr/" target="_blank">https://www.facebook.com/shaanmr/</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/shaanmr/" target="_blank">https://www.linkedin.com/in/shaanmr/</a></li>
+        </ul>
+        <p>Or, use the form below to send me a direct message. I'll do my best to get back to you as soon as possible!</p>
+
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Shaan Mohammad Rizwan © <script>document.write(new Date().getFullYear())</script></p>
+    </footer>
+
+    <script src="static/js/script.js"></script>
+</body>
+</html> 
